@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADP5PoAVFugAGyBkwCjrvMAobXtAIub6ABww4kAb3OoAJiY3wAxRWkA3eb3AOvr2QCUofEAlKL0AGNoowARDQwAyOD4AJum9wBvxdcAOlR7ANLj+ADS4v4Ao9HEAFldngBplYgAGiloAEZceACRne8AlZaTAJ+nxQCQn/UAWmCwAPv9/QDP1N4A/f39AGFopADF2vkAlKj1AF5nswDj7v4AmKb4AB0pKgCapfUAm6fyAJqp+ACfqe8AzOD5AFdcigAeKjYAzOP5AA8WHwARFyIAExciACpFawAXPUIAY5ehAI6f9gATHzEANUV0AJSj+QDC2/0Al6TzAJam+QCYpvkAmqfzADxRawCdyroAnqj2AFNYmgAuISUA8vLwALm1sQBWWZ0Aoq/5ANXj+gCYqMEAWF+mAFlgqQCOnvQAQFQ2AP369gCVpt8AWIZ5APz8/ADs7dkA2NjIAMXW+ADF3PgAl6j3AGJpsgDJ3/gAmqj3AJuo9wDV3O8A0d71AMvj+wDN4vgAk53FAO/z9AAcRhcAKycmAIad6QAlLjIAeaqcAHeunwDX6PgAqdLKAGNilQCTnfIAq6unAF9pmABcY6oAe93aAMfe7QBdin0Al6X4AJin9QCcpe8A0N7tAMzg8wDQ3fMA19vtANLe9gAqHzMAZm22AGdttgDx9PgAVl+fALjQ+gC40f0Avrm2AN3p8wAkL1EA1tfHABYgLgBFc2cAmJ3zAF9rqACXpPYAmKL5AJik9gCWp/YAmKf2AJeo+QCap/YASnttAJio+QBNVqAAJ0lOAMzf+gCcqvYAnar2AO7y8wCcrPwA1d30ANTg9ADf398ApLHwAI+o1gCq1MkAXWOsAJCm9AAACi0AFiU1AJak9wCdqeIAlqf3AJel+gDI3PsAHigsAF9wrwDs8fEAWn2pAMrh+ACcp/cAssn5AJ2s9ADM4vsAKkFbAJKfxQBUXKEAKDd8ALbL/wAwKSYAj5zpABUZJAAgJF8AvdP8AF5epwBaYK0AkqP1AP/7/QDD2fwAlaX7AJem9QCWpfsAzNnzAJan+ADJ3vkAmKj7AMve+QDJ4fkAe4ayACszcQAnQWUAz+T5AGtxqgBbYagAkKD2AJOj9gDG2/EAyt3uAFJ+rgCXqfYAmaf5AJum9gCbp/kAy+H6AM7g9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuTAvZHtdm5p2enlFt2szMjQXRGwI0gIdXgp4iLwHoDmTtB/HHn8OYbPOI3OkTVm9Ac87wxtMWq3aEImLkJnLJgF9Po48yS7ZXy7IGZA/bzhIikMNr4BXlcYknrak13xOIcKuSYEVqJUuwCe7ddc9S6OnKJZicIMuMX4GYiuuQDWsZbWlYk+rAM2YY0Y91gXMQRoqXGlt07HZdxwUvnQJspycW3PZsEq42GAoyiUE1BNHgqE+0HFRwW4RqnOQDLo6VYWGly2E1dai1tZc2JRqn1APN8SdKliPKNbWA1YpQhYgImY22HOP1o+SLNYSqWdoUyALVL+MxY3FptEYclKRhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    rel="icon" type="image/x-icon" />
+
+
+  <title>Manga 101</title>
+
+
+
+  <!-- Boostsarp -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/help.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/5264b8a6c0.js" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+
+  <section id="searchbar">
+
+    <div class="container-fluid-searchbar">
+
+      <!-- Search Bar -->
+
+      <div class="header-1">
+
+
+
+        <div class="manzuko-logo"> <a class="manzuko-logo" href="index.html"><img src="image/manzukologo.png" alt="logo" width="200px"></a> </div>
+
+
+        <div class="search-bar">
+          <form action="" method="">
+            <input type="search" placeholder="Search for Title, Author and Keyword">
+            <button>Search</button>
+          </form>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Your Library <i class="fas fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="sale.html" style="text-decoration:none">December Sale!</a>
+            <a href="cart.html" style="text-decoration:none">My Cart</a>
+            <a href="#" style="text-decoration:none">My Favorites</a>
+            <a href="login.html" style="text-decoration:none">Log In</a>
+            <a href="sign.html" style="text-decoration:none">Sign Up</a>
+            <a href="log.html" style="text-decoration:none">Logout</a>
+          </div>
+
+  </section>
+
+  <!-- Navigation -->
+
+  <section id="Navigation">
+
+
+    <div class="topnav" id="myTopnav">
+
+      <a href="index.html" class="active" style="text-decoration:none">HOME</a>
+      <a href="BestSeller.html" style="text-decoration:none">BEST SELLER</a>
+      <a href="MangaSeries.html" style="text-decoration:none">MANGA SERIES</a>
+      <a href="Artbook.html" style="text-decoration:none">ARTBOOK</a>
+      <a href="Novel.html" style="text-decoration:none">LIGHT NOVEL</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+<section class="section services-section" id="services">
+<div class="terms-text">
+<h3 class="terms">Common Manzuko Terms</h3>
+<p> Before shopping, it's best to know the difference of these shopping terms</p>
+  </div>
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+
+              </div>
+          </div>
+          <div class="row">
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>On-Hand</h5>
+                          <p>Stocks available at Manzuko Manga BookStore</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                        <i class="fa-solid fa-tag"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Order</h5>
+                          <p>Orders for stocks not available at Manzuko or the publisher--it's an order to be in queue when stocks are back</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa fa-comment"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Invoice</h5>
+                          <p>An email of the charge on an order with a button to select/change your payment method</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-recycle"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Single/Omnibus</h5>
+                          <p> Single books have one volume in one book while omnibus books are "two-volumes-in-one" or three or more.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-book"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5>Paperback/Hardcover</h5>
+                          <p>Paperback has a regular paper stock for the cover while hardcover uses a much thicker, sturdier cover and is usually more expensive</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-user"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5 class="icon-txt">Demography</h5>
+                          <p>The target audience, usually by a Japanese manga magazine--BL/GL/novels typically don't have a demography</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-box"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5 class="icon-txt">Box Set</h5>
+                          <p>An official set of the published books covered in a thick box, often times with extra material, and sold as one set</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                          <i class="fa-solid fa-truck"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5 class="icon-txt">Delivery</h5>
+                          <p>The way of shipping your order manga in your home.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                  <div class="feature-box-1">
+                      <div class="icon">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                      </div>
+                      <div class="feature-content">
+                          <h5 class="icon-txt">
+Debut / Standalone</h5>
+                          <p>Debut refers to the first volume of a book while standalone refers that it's the only volume of the series</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- / -->
+          </div>
+      </div>
+
+<section id="footer">
+<div class="footer-f">
+  <footer
+          class="text-center text-lg-start text-dark"
+          style="background-color: #ECEFF1"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4 text-white"
+             style="background-color: #0D701D"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social media platform:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/profile.php?id=100087575511655" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com/" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/login" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Manzuko Manga Bookstore</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              This is a website that can sell colectables items such as
+              Manga, Artbook and Light Novel
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="BestSeller.html" class="text-dark">Best Seller</a>
+            </p>
+            <p>
+              <a href="MangaSeries.html" class="text-dark">Manga Series</a>
+            </p>
+            <p>
+              <a href="Artbook.html" class="text-dark">ArtBook</a>
+            </p>
+            <p>
+              <a href="Novel.html" class="text-dark">Light Novel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">SUPPORT</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="help.html" class="text-dark">Help Center</a>
+            </p>
+            <p>
+              <a href="101.html" class="text-dark">Manga 101</a>
+            </p>
+            <p>
+              <a href="terms.html" class="text-dark">Terms & Policy</a>
+            </p>
+            <p>
+              <a href="inqure.html" class="text-dark">Payment Terms</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+          <a href="https://www.google.com/maps/place/CSTC+-+College+of+Sciences,+Technology+and+Communication,+Inc./@13.9649731,121.5293539,845m/data=!3m1!1e3!4m6!3m5!1s0x33bd4ea5eb52791f:0x77f53ba3c2bb89e2!8m2!3d13.9648961!4d121.529946!16s%2Fg%2F1tg9q6xh!5m1!1e4" style="color:black;">  <p><i class="fas fa-home mr-3"></i> Sariaya, Quezon Province</p> </a>
+        <a href="mailto:mangamazuko@gmail.com" style="color:black;">    <p><i class="fas fa-envelope mr-3"></i> Manzuko@gmail.com</p> </a>
+            <p><i class="fas fa-phone mr-3" style="color:black;"></i> 09097310788</p>
+            <p><i class="fas fa-print mr-3" style="color:black;"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2022 Copyright:
+      <a class="text-dark" href="#"
+         >Manzuko Manga Bookstore • </a
+        >
+        <a>Camille • Yra • Mark </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+</div>
+</section>
+
+
+    </body>
+
+
+    </html>
